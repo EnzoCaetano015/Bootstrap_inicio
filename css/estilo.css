@@ -1,12 +1,81 @@
-.container{
-
-background-color: yellowgreen;
-font-size: 20px;
-
+.imgicone{
+    width: 19%;
 }
 
 body{
-
-background-color: black;
-
+    font-family: Anton;
+    background-color: #00000077;
 }
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section{
+    border-radius: 30px;
+    background-color: #bd6363;
+    margin: 2%;
+    padding: 2%;
+}
+
+.legendacarrossel{
+    color: rgb(0, 0, 0);
+    background-color: rgb(247, 107, 107);
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+    font-size: 1.2em;
+}
+
+/* elenco */
+.imgshadow {
+    box-shadow: 10px 6px 20px 6px #f7a6a6;
+}
+.rowcard{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+/*galeria*/ 
+.espacobaixo{
+    padding-bottom: 5%;
+    
+}
+
+.imggal{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 2px #000000;
+}
+
+.footer {
+    background-color: #b30000;
+    font-size: 1em;
+    text-align: center;
+    padding: 1%;
+    font-weight: bold;
+    color: #000000;
+}
+
+.midia{
+    width: 3%;
+    display: inline;
+    padding: 0.5%;
+    box-shadow: none;
+}
+
+.espacocard{
+    margin-bottom: 3%;
+}
+
+
+
+.teste{
+
+    float: left;
+    width:28%;
+    height: 25%;
+    margin-right: 4%;
+    box-shadow: 10px 10px 10px 2px #000000;
+    
+    }
+
